@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.cs.renneleh">
+
+<!--    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />-->
+<!--    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />-->
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" tools:node="remove" />
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission. INTERNET"/>
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@drawable/logo_rennleh"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_rennleh"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Renneleh">
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="sensorPortrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+             />
+        <meta-data android:name="com.startapp.sdk.APPLICATION_ID" android:value="208245449" />
+    </application>
+
+<!--    <meta-data android:name="com.startapp.sdk.APPLICATION_ID" android:value="208245449" />-->
+<!--    <meta-data android:name="com.startapp.sdk.RETURN_ADS_ENABLED" android:value="false" />-->
+
+</manifest>

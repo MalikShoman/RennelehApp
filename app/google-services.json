@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "474637749238",
+    "project_id": "renneleh-6896b",
+    "storage_bucket": "renneleh-6896b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474637749238:android:b13ca1bc8b6126b8afd5d7",
+        "android_client_info": {
+          "package_name": "com.cs.renneleh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474637749238-lqhnhtpjolar0nsgm7re8hopgchp9bbn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGWcHdWdxx28ZYRTeZeWAx7sYrJg43_H0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474637749238-lqhnhtpjolar0nsgm7re8hopgchp9bbn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
